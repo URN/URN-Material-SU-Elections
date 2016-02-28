@@ -47,13 +47,13 @@
 
         <div class="module">
             <a target="_blank" href="//audioboom.com/boos/3831925-the-nineteen-percent-1-body-contact">
-                <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_6.jpg" ?>">
+                <img style="width:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/cover_pulse.jpg" ?>">
             </a>
         </div>
 
         <div class="module">
             <a href="<?php echo get_permalink( get_page_by_path( 'competitions' ) )?>">
-                <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_1.jpg" ?>">
+                <img style="width:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/cover_varsity.jpg" ?>">
             </a>
         </div>
 
