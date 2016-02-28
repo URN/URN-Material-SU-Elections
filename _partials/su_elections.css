@@ -1,5 +1,5 @@
-body {
-  color: #8e8e8e;
+#header {
+  background: url("images/banner.png") repeat-x center;
 }
 
 .embed-yt {
