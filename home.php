@@ -9,11 +9,29 @@
 
 
     <div class="row row-wide">
-        <div class="module">
-            <!-- Election Articles -->
+        <div class="row blogs vertical">
+            <?php
+            // Get the most recent blog
+            $posts = get_posts(array(
+               'numberposts' => 3
+            ));
+
+            echo "<ul class='blog-excerpt'>";
+            foreach ( $posts as $post ) {
+                echo format_blog_excerpt($post, false);
+                break;
+            }
+            echo "</ul>";
+            ?>
+
         </div>
 
-        <div class="module">
+        <div class="row vertical">
+            <div class="audioboom-feed" data-channel-id="4227797" data-channel-audioboom-type="users" data-channel-type="urn-speech" data-channel-name="URN Speech" data-card-type="0" data-show-image="false"></div>
+
+            <a target="_blank" href="//audioboom.com/channel/URNspeech">
+                <button class="btn">See more</button>
+            </a>
 
         </div>
     </div>
