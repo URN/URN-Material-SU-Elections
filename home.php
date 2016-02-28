@@ -15,7 +15,8 @@
             <?php
             // Get the most recent blog
             $posts = get_posts(array(
-               'numberposts' => 3
+                'numberposts' => 3,
+                'category_name' => 'SU Elections 2016'
             ));
 
             echo "<ul class='blog-excerpt'>";
