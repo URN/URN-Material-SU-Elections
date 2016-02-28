@@ -4,7 +4,9 @@
 
    <div class="row row-wide">
         <!-- SU photo -->
-        <img style="width:100%; height:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/elections-banner.jpg" ?>">
+        <a href="http://www.su.nottingham.ac.uk/make-the-change/elections/">
+            <img style="width:100%; height:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/elections-banner.jpg" ?>">
+        </a>
    </div>
 
 
