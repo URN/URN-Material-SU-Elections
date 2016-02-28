@@ -31,7 +31,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-shell');
 
     grunt.registerTask('default', ['scsslint', 'compass', 'watch']);
 
