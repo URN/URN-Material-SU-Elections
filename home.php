@@ -2,13 +2,13 @@
 
 <div class="main-content">
 
-   <div class="row-wide">
+   <div class="row row-wide">
         <!-- SU photo -->
         <img style="width:100%; height:100%" src="<?php echo get_stylesheet_directory() . "/images/elections-banner.jpg" ?>">
    </div>
 
 
-    <div class="row-wide">
+    <div class="row row-wide">
         <div class="module">
             <!-- Election Articles -->
         </div>
@@ -18,12 +18,12 @@
         </div>
     </div>
 
-    <div class="row-wide">
+    <div class="row row-wide">
         <iframe class="embed-yt" width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A" frameborder="0" allowfullscreen></iframe>
     </div>
 
 
-    <div class="row-wide cover-photos">
+    <div class="row row-wide cover-photos">
 
         <div class="module">
             <a target="_blank" href="//audioboom.com/boos/3831925-the-nineteen-percent-1-body-contact">
@@ -44,12 +44,12 @@
         </div>
     </div>
 
-    <div class="row-wide">
+    <div class="row row-wide">
         <div class="twitter">
             <a width="360" class="twitter-timeline" data-dnt="true" href="https://twitter.com/urn1350/lists/urn-tweets" data-widget-id="644596981076226048">Tweets from https://twitter.com/urn1350/lists/urn-tweets</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
-        <div class="row-wide vertical">
+        <div class="row row-wide vertical">
             <h1>Today's Schedule</h1>
             <div class="schedule mini-schedule">
                 <ul class="day-names">
@@ -101,7 +101,7 @@
         </div>
     </div>
 
-    <div class="row-wide cover-photos">
+    <div class="row row-wide cover-photos">
         <div class="module">
             <a href="<?php echo get_permalink( get_page_by_path( 'urn-tv' ) )?>" target="_blank">
                 <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_4.jpg" ?>">
