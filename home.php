@@ -29,7 +29,7 @@
         </div>
 
         <div class="row vertical">
-            <div class="audioboom-feed" data-channel-id="4227797" data-channel-audioboom-type="users" data-channel-type="urn-speech" data-channel-name="URN Speech" data-card-type="0" data-show-image="false"></div>
+            <div class="audioboom-feed" data-channel-id="4227797" data-channel-audioboom-type="users" data-channel-type="urn-speech" data-channel-name="URN Speech" data-card-type="2" data-show-image="false"></div>
 
             <a target="_blank" href="//audioboom.com/channel/URNspeech">
                 <button class="btn">See more</button>
