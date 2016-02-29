@@ -11,25 +11,27 @@
 
 
     <div class="row row-wide">
-        <div class="row blogs vertical">
+        <div class="row blogs vertical su-box">
+            <h1>SU Elections Blog Posts</h1>
             <?php
             // Get the most recent blog
             $posts = get_posts(array(
-                'numberposts' => 3,
+                'numberposts' => 4,
                 'category_name' => 'SU Elections 2016'
             ));
 
             echo "<ul class='blog-excerpt'>";
             foreach ( $posts as $post ) {
                 echo format_blog_excerpt($post, false);
-                break;
             }
             echo "</ul>";
             ?>
 
         </div>
 
-        <div class="row vertical">
+        <div class="row vertical su-box">
+            <h1>SU Elections Audio</h1>
+
             <div class="audioboom-feed" data-channel-id="4227797" data-channel-audioboom-type="users" data-channel-type="urn-speech" data-channel-name="URN Speech" data-card-type="2" data-show-image="false"></div>
 
             <a target="_blank" href="//audioboom.com/channel/URNspeech">
