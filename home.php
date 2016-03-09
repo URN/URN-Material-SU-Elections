@@ -42,7 +42,7 @@
     </div>
 
     <div class="row row-wide">
-        <iframe class="embed-yt" width="560" height="315" src="https://www.youtube.com/embed/jMfZV8MX7Ig" frameborder="0" allowfullscreen></iframe>
+        <iframe class="embed-yt" width="560" height="315" src="https://www.youtube.com/embed/KsozUgiaiYw" frameborder="0" allowfullscreen></iframe>
     </div>
 
 
