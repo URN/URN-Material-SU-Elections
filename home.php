@@ -41,9 +41,9 @@
         </div>
     </div>
 
-    <!-- <div class="row row-wide">
+    <div class="row row-wide">
         <iframe class="embed-yt" width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A" frameborder="0" allowfullscreen></iframe>
-    </div> -->
+    </div>
 
 
     <div class="row row-wide cover-photos">
