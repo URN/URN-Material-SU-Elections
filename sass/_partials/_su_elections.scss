@@ -6,6 +6,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @include breakpoint(tablet) {
+        iframe {
+            width: 100%;
+        }
+    }
 }
 
 .row-wide {
