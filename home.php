@@ -5,7 +5,7 @@
    <div class="row row-wide">
         <!-- SU photo -->
         <a href="http://www.su.nottingham.ac.uk/make-the-change/elections/">
-            <img style="width:100%; height:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/elections-banner.jpg" ?>">
+            <img class="su-banner" src="<?php echo get_stylesheet_directory_uri() . "/images/elections-banner.jpg" ?>">
         </a>
    </div>
 
@@ -17,7 +17,7 @@
             // Get the most recent blog
             $posts = get_posts(array(
                 'numberposts' => 4,
-                'category_name' => 'SU Elections 2016'
+                'category_name' => 'SU Elections 2017'
             ));
 
             echo "<ul class='blog-excerpt'>";
@@ -42,29 +42,7 @@
     </div>
 
     <div class="row row-wide">
-        <iframe class="embed-yt" width="560" height="315" src="https://www.youtube.com/embed/KsozUgiaiYw" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-
-    <div class="row row-wide cover-photos">
-
-        <div class="module">
-            <a target="_blank" href="//audioboom.com/boos/3831925-the-nineteen-percent-1-body-contact">
-                <img style="width:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/cover_pulse.jpg" ?>">
-            </a>
-        </div>
-
-        <div class="module">
-            <a href="<?php echo get_permalink( get_page_by_path( 'competitions' ) )?>">
-                <img style="width:100%" src="<?php echo get_stylesheet_directory_uri() . "/images/cover_varsity.jpg" ?>">
-            </a>
-        </div>
-
-        <div class="module">
-            <a href="<?php echo get_permalink( get_page_by_path( 'competitions' ) )?>">
-                <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_2.jpg" ?>">
-            </a>
-        </div>
+        <iframe class="embed-yt" src="https://www.youtube.com/embed/rAZ0yFm7_zY" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="row row-wide">
@@ -121,36 +99,6 @@
 
             <h1>Headlines</h1>
             <div class="audioboom-feed" data-card-type="0" data-channel-id="4227841" data-channel-audioboom-type="users" data-channel-type="urn-headlines" data-channel-name="URN Headlines"></div>
-        </div>
-    </div>
-
-    <div class="row row-wide cover-photos">
-        <div class="module">
-            <a href="<?php echo get_permalink( get_page_by_path( 'urn-tv' ) )?>" target="_blank">
-                <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_4.jpg" ?>">
-            </a>
-        </div>
-
-        <div class="module blogs">
-            <?php
-            // Get the most recent blog
-            $posts = get_posts(array(
-               'numberposts' => 3
-            ));
-
-            echo "<ul class='blog-excerpt'>";
-            foreach ( $posts as $post ) {
-                echo format_blog_excerpt($post, false);
-                break;
-            }
-            echo "</ul>";
-            ?>
-        </div>
-
-        <div class="module">
-            <a href="<?php echo get_permalink( get_page_by_path( 'podcasts' ) )?>">
-                <img style="width:100%" src="<?php echo get_template_directory_uri() . "/images/cover_urn.jpg" ?>">
-            </a>
         </div>
     </div>
 </div>

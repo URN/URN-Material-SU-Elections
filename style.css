@@ -14,10 +14,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 560px;
+  height: 315px;
 }
 @media (max-width: 780px) {
-  .embed-yt iframe {
+  .embed-yt {
     width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  .embed-yt {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -36,8 +44,23 @@
   padding: 15px;
 }
 
+.su-banner {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 620px) {
+  .su-banner {
+    display: none;
+  }
+}
+
 .su-box {
   border: 2px solid #5374b9;
+}
+@media (max-width: 620px) {
+  .su-box {
+    display: none;
+  }
 }
 .su-box ul h1 {
   font-size: 1.2em;
