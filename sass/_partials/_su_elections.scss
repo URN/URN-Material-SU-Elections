@@ -54,3 +54,19 @@
         font-size: 1.2em;
     }
 }
+
+.live-link {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Milocha', 'Raleway', sans-serif;
+    margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        color: $urn-purple;
+
+        &:hover {
+            color: darken($urn-purple, 10%);
+        }
+    }
+}

@@ -65,3 +65,17 @@
 .su-box ul h1 {
   font-size: 1.2em;
 }
+
+.live-link {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Milocha', 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+.live-link a {
+  text-decoration: none;
+  color: #5e44cb;
+}
+.live-link a:hover {
+  color: #4830ac;
+}

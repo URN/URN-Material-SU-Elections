@@ -2,13 +2,18 @@
 
 <div class="main-content home-content">
 
-   <div class="row row-wide">
+    <div class="row row-wide">
         <!-- SU photo -->
         <a href="http://www.su.nottingham.ac.uk/make-the-change/elections/">
-            <img class="su-banner" src="<?php echo get_stylesheet_directory_uri() . "/images/elections-banner.jpg" ?>">
+            <img class="su-banner" src="<?php echo get_stylesheet_directory_uri() ?>/images/elections-banner.jpg">
         </a>
-   </div>
+    </div>
 
+    <div class="row row-wide">
+        <p class="live-link" style="font-size: 2em;">
+            Check out our live coverage of the SU Elections <a href="<?php echo get_template_directory_uri();?>/su2017">here</a>
+        </p>
+    </div>
 
     <div class="row row-wide">
         <div class="row blogs vertical su-box">
