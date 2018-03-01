@@ -10,44 +10,7 @@
     </div>
 
     <div class="row row-wide">
-        <p class="live-link" style="font-size: 2em;">
-            Check out our live coverage of the SU Elections <a href="<?php echo get_template_directory_uri();?>/su2017">here</a>
-        </p>
-    </div>
-
-    <div class="row row-wide">
-        <div class="row blogs vertical su-box">
-            <h1>SU Elections Blog Posts</h1>
-            <?php
-            // Get the most recent blog
-            $posts = get_posts(array(
-                'numberposts' => 4,
-                'category_name' => 'SU Elections 2017'
-            ));
-
-            echo "<ul class='blog-excerpt'>";
-            foreach ( $posts as $post ) {
-                echo format_blog_excerpt($post, false);
-            }
-            echo "</ul>";
-            ?>
-
-        </div>
-
-        <div class="row vertical su-box">
-            <h1>SU Elections Audio</h1>
-
-            <div class="audioboom-feed" data-channel-id="4227797" data-channel-audioboom-type="users" data-channel-type="urn-speech" data-channel-name="URN Speech" data-card-type="0" data-show-image="false"></div>
-
-            <a target="_blank" href="https://audioboom.com/users/4227797/boos">
-                <button class="btn">See more</button>
-            </a>
-
-        </div>
-    </div>
-
-    <div class="row row-wide">
-        <iframe class="embed-yt" src="https://www.youtube.com/embed/rAZ0yFm7_zY" frameborder="0" allowfullscreen></iframe>
+        <iframe class="embed-yt" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Furn1350%2Fvideos%2F10155260233269684%2F&width=500&show_text=false&height=280&appId" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
     </div>
 
     <div class="row row-wide">
